@@ -12,4 +12,7 @@ const stairCase = (steps, max, array=[]) => {
 	// If we already found result.
 	if (array[steps]) return array[steps];
 
+	// Define and initialize variable where we will add up results
+	let result = 0;
+
 }
