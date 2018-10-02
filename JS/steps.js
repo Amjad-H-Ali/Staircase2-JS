@@ -9,4 +9,7 @@ const stairCase = (steps, max, array=[]) => {
 	// When only 0-1 steps, only 1 way to reach top. 
 	if (steps <= 1) return 1;
 
+	// If we already found result.
+	if (array[steps]) return array[steps];
+
 }
