@@ -15,4 +15,8 @@ const stairCase = (steps, max, array=[]) => {
 	// Define and initialize variable where we will add up results
 	let result = 0;
 
+	// Ex: If steps is 3 and max is 3, result equals staircase(3-1) + staircase(3-2) + staircase(3-3).
+	// We will need a loop to find answer for 1...m
+	for (let i = 1; i <= m; i ++) 
+
 }
