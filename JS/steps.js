@@ -19,8 +19,13 @@ const stairCase = (steps, max, array=[]) => {
 	// We will need a loop to find answer for 1...m
 	for (let i = 1; i <= m; i ++) 
 		// Steps cannot be less than 0
-		// Add to result
+		// Add answer to result
 		if (steps - i >= 0) stairCase(steps - i, max, array);
+
+	// Store result in array for future reference.
+	array[steps] = result;
+
+	return result;	
 
 
 }
