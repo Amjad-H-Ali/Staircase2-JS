@@ -17,15 +17,28 @@ const stairCase = (steps, max, array=[]) => {
 
 	// Ex: If steps is 3 and max is 3, result equals staircase(3-1) + staircase(3-2) + staircase(3-3).
 	// We will need a loop to find answer for 1...m
-	for (let i = 1; i <= m; i ++) 
+	for (let i = 1; i <= max; i ++) 
 		// Steps cannot be less than 0
 		// Add answer to result
-		if (steps - i >= 0) stairCase(steps - i, max, array);
+		if (steps - i >= 0) result += stairCase(steps - i, max, array);
 
 	// Store result in array for future reference.
 	array[steps] = result;
 
 	return result;	
 
-
 }
+
+
+
+console.log(stairCase(3, 3)); // 4
+
+console.log(stairCase(4, 2)); // 5
+
+console.log(stairCase(3, 2)); // 3
+
+console.log(stairCase(0, 3)); // 1
+
+console.log(stairCase(1, 2)); // 1
+
+console.log(stairCase(3, 5)); // 4
