@@ -1,6 +1,6 @@
 # Staircase2-JS
 
-##### This program assumes you have already viewed [Recursive-Staircase-JS](https://github.com/Amjad-H-Ali/Recursive-Staircase).
+##### This repository assumes you have already viewed [Recursive-Staircase-JS](https://github.com/Amjad-H-Ali/Recursive-Staircase).
 
 ### We will take the program a step further.
 
