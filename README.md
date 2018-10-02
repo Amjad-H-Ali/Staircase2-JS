@@ -18,7 +18,7 @@
 
 ##### step 0 to 1 to 3 or
 
-##### step 2 to 3 or 
+##### step 0 to 2 to 3 or 
 
 ##### step 0 to 3.
 
